@@ -74,7 +74,7 @@ $result_bancos = mysqli_query($conexion, $query_bancos);
             <h1 class="text-2xl font-bold">Gestión de Contratos</h1>
 
             <div class="absolute top-4 right-4 text-white">
-                <a href="modify_contractor.php" class="hover:underline">Bienvenido, <?php echo htmlspecialchars($_SESSION['nombres']); ?></a>
+                <a href="modificar_usuario.php" class="hover:underline">Bienvenido, <?php echo htmlspecialchars($_SESSION['nombres']); ?></a>
                 <a href="back/logout.php" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Cerrar Sesión</a>
             </div>
         </div>
