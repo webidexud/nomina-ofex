@@ -1,0 +1,13 @@
+{
+    "name": "udistrital/nomina_automatica",
+    "description": "Programa que permite hacer la nomina automatica utilizando planner",
+    "autoload": {
+        "psr-4": {
+            "Udistrital\\NominaAutomatica\\": "src/"
+        }
+    },
+    "require": {
+        "phpoffice/phpspreadsheet": "^2.2",
+        "phpoffice/phpword": "^1.2"
+    }
+}
